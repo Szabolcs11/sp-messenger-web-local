@@ -1,0 +1,51 @@
+.DirectMessage-Container {
+    /* width: 100%;
+    height: 100%; */
+    display: flex;
+    justify-content: center;
+}
+
+
+.Chat-Previews {
+    /* display: none; */
+    position: absolute;
+    top: 510px;
+    width: 100%;
+    /* height: 120px; */
+    height: 100%;
+}
+
+.Chat-Previews-Container {
+    padding: 10px;  
+}
+
+.Chat-Previews-Main {
+    /* background-color: rgb(22, 103, 174);§ */
+    background-color: white;
+    display: flex;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    overflow: scroll;
+    height: 120px;
+
+}
+
+.Chat-Previews-Main::-webkit-scrollbar {
+    display: none;
+}
+
+.Chat-Previews-Item {
+    padding: 8px;
+    position: relative;
+}
+
+.PreviewImg {
+    width: 100px;
+    height: 100px;
+}
+
+.Preview-Close {
+    cursor: pointer;
+    position: absolute;
+    /* top: 11px; */
+}

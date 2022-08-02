@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+.Chat-Messages {
+    background-color: rgb(94, 88, 82);
+    width: 100%;
+    height: 97%;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Chat-Message-Container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    /* text-align: center; */
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.Image {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.ProfilePicContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+/* Chat message Other */
+.Chat-Message-Other {
+    margin: 10px;
+}
+
+.ProfileImg {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+.Chat-Message-Other-Name {
+    font-size: 16px;
+    /* font-weight: 600; */
+}
+
+.Chat-Message-Other-Message {
+    padding: 10px;
+}
+
+
+.Chat-Message-Other-Container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Chat-Message-Other-Avatar {
+    display: flex;
+    align-items: center;
+}
+
+/* Chat message Me */
+
+.Chat-Message-Me {
+    margin: 10px;
+}
+
+.Chat-Message-Me-Container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.Chat-Message-Me-Avatar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}

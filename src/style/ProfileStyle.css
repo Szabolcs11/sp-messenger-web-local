@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+
+.Profile-Main {
+    padding: 70px;
+}
+
+.Profile-Container {
+    width: 550px;
+    height: 280px;
+    /* background-color: rebeccapurple; */
+    font-family: 'Inter', sans-serif;
+    box-shadow: 0 0 5px black;
+    border-radius: 5px;
+}
+
+.Profile-Container-Content {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Profile-Picture-Container {
+    width: 100px;
+    height: 100px;
+}
+
+.Avatar {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+
+.Profile-Name {
+    width: 200px;
+    text-align: center;
+}
+
+#file-input {
+    display: none;
+}
+
+/* .Profile-Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+}
+
+.AccountDetails {
+    text-align: center;
+}
+
+.AccountDetails-Text {
+    font-size: 50px;
+}
+
+.Avatar {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+
+.AccountAvatar-Container {
+    margin: 20px;
+    position: relative;
+}
+
+.AccountDetailts-Input>input {
+    display: none;
+} */

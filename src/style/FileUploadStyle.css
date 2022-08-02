@@ -1,0 +1,31 @@
+.FileUpload {
+    border:  1px solid #eee;
+    border-radius: 2px;
+    /* max-width: 300px; */
+    /* margin: auto; */
+}
+
+
+.image-upload {
+    height: 50px;
+    width: 50px;
+}
+
+.image-upload>input {
+    display: none;
+}
+
+.image-upload-icon {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.ImageUpload-Container {
+    cursor: pointer;
+    /* size: 50%; */
+}
+
+#uploadicon {
+    transform: scale(0.8);
+}
